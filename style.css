@@ -1,3 +1,35 @@
 h1, h2 {
-  font-family: Lato;
+  font-family: sans-serif;
+
+}
+h1,
+h2
+
+.header{
+display: flex;
+background-color: purple;
+min-height: 100px;
+}
+
+
+main{
+  display: flex;
+  background-color: red;
+  min-height: 500px;
+  flex-flow: row wrap;
+}
+
+aside:nth-child(1){
+  display: flex;
+  background-color:yellow;
+}
+
+article{
+  flex: 0 0 200px;
+  background-color: blue;
+}
+
+footer{
+  background-color: aqua;
+  min-height: 200px;
 }
